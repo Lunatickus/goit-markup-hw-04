@@ -218,6 +218,7 @@ img {
 
 .features-list, .about-list, .team-list {
     display: flex;
+    gap: 24px;
 }
 
 .features-item, .team-item, .social-list-item {
@@ -238,11 +239,11 @@ img {
     width: calc((100% - 2 * 24px) / 3);
 }
 
-.features-item:not(:last-child),
+/* .features-item:not(:last-child),
 .team-item:not(:last-child),
 .about-item:not(:last-child) {
     margin-right: 24px;
-}
+} */
 
 /* .features-item:nth-child(4n),
 .team-item:nth-child(4n) {
